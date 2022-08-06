@@ -1,0 +1,30 @@
+{
+    "name": "aldijakaria/laravel-wallet",
+    "description": "a package for manage wallet for laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Aldijakaria\\LaravelWallet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aldi jakaria",
+            "email": "airakajidla@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "illuminate/database": "^8.18",
+        "illuminate/support": "^8.18",
+        "illuminate/config": "^8.18",
+        "illuminate/auth": "^8.18"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AldiJakaria\\LaravelWallet\\LaravelWalletServiceProvider"
+            ]
+        }
+    }
+}
