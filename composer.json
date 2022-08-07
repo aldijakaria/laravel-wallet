@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AldiJakaria\\LaravelWallet\\LaravelWalletServiceProvider"
+                "Aldijakaria\\LaravelWallet\\LaravelWalletServiceProvider"
             ]
         }
     }
