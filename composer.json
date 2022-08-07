@@ -2,6 +2,7 @@
     "name": "aldijakaria/laravel-wallet",
     "description": "a package for manage wallet for laravel",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Aldijakaria\\LaravelWallet\\": "src/"
